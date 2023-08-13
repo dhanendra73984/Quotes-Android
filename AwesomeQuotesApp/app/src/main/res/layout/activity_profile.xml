@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ProfileActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="PROFILE"
+        android:id="@+id/toolbarP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textFname"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="FIRSTNAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textLname"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="LASTNAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="EMAIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textMobile"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="PHONE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnEditPro"
+        android:text="EDIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

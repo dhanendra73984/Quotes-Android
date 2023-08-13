@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+
+        android:backgroundTint="#FAF4F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/textQuote"
+            android:text="quote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:text="Author"
+            android:id="@+id/textAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imgHeart"
+                android:backgroundTint="#CC2323"
+                android:src="@drawable/baseline_heart_broken_24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
